@@ -1,9 +1,8 @@
 import { NextPage } from 'next'
 import Link from 'next/link';
 
-interface Props {}
 
-const Header: NextPage<Props> = ({}) => {
+const Header: NextPage = ({}) => {
   return <div className='w-full absolute text-white z-10'>
   <nav className='container relative flex flex-wrap items-center justify-between mx-auto p-8'>
     <Link href="/" className='font-bold text-3xl'>Home</Link>

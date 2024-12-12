@@ -1,9 +1,7 @@
 import Hero from '@/Components/Hero/Hero';
 import { NextPage } from 'next'
 
-interface Props {}
-
-const Reliability: NextPage<Props> = ({}) => {
+const Reliability: NextPage = ({}) => {
   return <div>
     <Hero imagePath={"/images/reliability.jpg"} title="Reliability" imageAlt="Reliability" />
   </div>
